@@ -4,7 +4,6 @@ author:             Daniel Bigler
 email:              hello@danielsaurus.com
 description:        "Where Daniel Bigler thinks deep thoughts about stuff and dinosaurs."
 tagline:            Not a dinosaur.
-url:                http://www.danielsaurusrex.com
 	
 # Dependencies
 markdown:         redcarpet
