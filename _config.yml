@@ -3,7 +3,7 @@ title:              Danielsaurus
 author:             Daniel Bigler
 email:              hello@danielsaurus.com
 description:        "Where Daniel Bigler thinks deep thoughts about stuff and dinosaurs."
-tagline:            Not a dinosaur.
+tagline:            "Not a dinosaur."
 	
 # Dependencies
 markdown:         redcarpet
