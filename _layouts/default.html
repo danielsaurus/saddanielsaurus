@@ -1,17 +1,26 @@
 <!DOCTYPE html>
-<html>
-{% include head.html %}
-<body>
-  <div class="site-wrap">
-    {% include header.html %}
+<html lang="en">
 
-    <div class="post p2 p-responsive wrap" role="main">
-      <div class="measure">
-        {{ content }}
+  {% include head.html %}
+
+  <body>
+
+    <div class="container content">
+      <div class="masthead">
+        <h3 class="masthead-title">
+          <a href="{{ site.baseurl }}" title="Home">{{ site.title }}</a>
+          <small>{{ site.tagline }}</small>
+        </h3>
+      </div>
+
+      {{ content }}
+
+      <div class="footer">
+        <p>
+          &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+        </p>
       </div>
     </div>
-  </div>
 
-  {% include footer.html %}
-</body>
+  </body>
 </html>
