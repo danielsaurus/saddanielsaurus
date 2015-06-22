@@ -1,37 +1,88 @@
----
-layout: default
-title: Home
----
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<head>
+    <meta charset="UTF-8">
+    <title>Daniel Bigler is an educator, researcher, and professional big kid.</title>
+    <meta name="title" content="Daniel Bigler is a researcher, educator, and professional big kid.">
+    <meta name="description" content="Daniel Bigler is an educator, researcher, and professional big kid who helps grown-ups better understand children and childhood.">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="vendor/jquery.min.js"></script>
+    <script type="text/javascript" src="vendor/noframework.waypoints.min.js"></script>
+    <script type="text/javascript" src="vendor/responsive-nav.min.js"></script>
+    <script type="text/javascript" src="vendor/idangerous.swiper.min.js"></script>
+    <script type="text/javascript" src="js/form-submit.js"></script>
+    <script type="text/javascript" src="js/reveal-animation.js"></script>
+    <script type="text/javascript" src="js/background-parallax.js"></script>
+    <script type="text/javascript" src="js/page-script.js"></script>
+    <script type="text/javascript">
+        var fonts = {
+            "Source Sans Pro": {
+                "family": "Source Sans Pro",
+                "source": "google",
+                "subsets": [
+                    "latin",
+                    "latin-ext"
+                ],
+                "variants": [
+                    "200",
+                    "200italic",
+                    "300",
+                    "300italic",
+                    "600",
+                    "600italic",
+                    "700",
+                    "700italic",
+                    "900",
+                    "900italic",
+                    "italic",
+                    "regular"
+                ]
+            },
+        };
+    </script>
+    <script type="text/javascript" src="vendor/webfont.js"></script>
+    <script type="text/javascript" src="js/fontloader.js"></script>
+    <!-- Replace code below with your typekit kit's embed code -->
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <meta http-equiv="content-language" content="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
+<body>
+    <div class="b-content hide-footer">
+        <div id="fr_5448faf7d775ef0e7400003d" class="fr-widget fr-container fr_fibiwa">
+            <div id="fr_5448fadfd775ef0e74000026" class="fr-widget fr-container fr_me">
+                <div id="fr_5448fadfd775ef0e74000037" class="fr-widget fr-text fr-wf fr_big_name fr_bigname">
+                    <div class="fr-text">Daniel&nbsp;Bigler</div>
+                </div><!--
+             --><div id="fr_5448fadfd775ef0e74000030" class="fr-widget fr-text fr-wf fr_pumina fr_subtitle">
+                    <div class="fr-text">is an educator
+                        <span>, researcher,&nbsp;and professional&nbsp;</span>big kid.</div>
+                </div>
+            </div>
+            <script>
+                (function() {
+                        'use strict'; < script type = "text/javascript"
+                        src = "http://fast.fonts.net/jsapi/fb4cdc4d-7325-429d-a4e2-196c9772b5ec.js" >
+            </script>
+            }).call(document.getElementsByClassName('fr_fibiwa')[0]);
+            </script>
+        </div><!--
+     --><div id="fr_556e7105f4d061546900001d" class="fr-widget fr-container fr_content_11">
+            <div id="fr_556e7105f4d0615469000022" class="fr-widget fr-text fr-wf fr_body_text fr_maintext">
+                <div class="fr-text">
+                    <p>
+                        <span>As a lecturer in <a href="http://www.ewu.edu/children">Children's Studies</a>,&nbsp;he tries to create learning experiences</span>&nbsp;for grown-ups that&nbsp;
+                        <span>challenge them&nbsp;</span>to re-think&nbsp;how they understand and&nbsp;approach&nbsp;children &amp; childhood. He also&nbsp;gets to hang out&nbsp;with awesome kids, as part of his ongoing ethnographic research into the worlds of adventure&nbsp;playgrounds, Reggio Emilia-inspired&nbsp;education, and amazing&nbsp;schools.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+    </div>
+</body>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+</html>

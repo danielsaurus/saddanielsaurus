@@ -1,0 +1,258 @@
+h1 {
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0
+}
+h2 {
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0
+}
+h3 {
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0
+}
+h4 {
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0
+}
+h5 {
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0
+}
+h6 {
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0
+}
+blockquote {
+  margin-top: 0;
+  margin-bottom: 0
+}
+.fr_content {
+  font-family: europa;
+  font-weight: 300;
+  font-size: 1.6em;
+  line-height: 1.45em;
+  text-align: left;
+  letter-spacing: .05em;
+  color: #292c31
+}
+.fr_bigname {
+  font-family: Source Sans Pro;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 6em;
+  line-height: 1em;
+  text-align: left;
+  letter-spacing: -0.1;
+  color: white
+}
+
+.fr_maintext {
+  font-family: Source Sans Pro;
+  font-weight: 300;
+  font-size: 1.6em;
+  line-height: 1.45em;
+  text-align: left;
+  letter-spacing: .05em;
+  color: #292c31
+}
+.fr_subtitle {
+  font-family: Source Sans Pro;
+  font-weight: 200;
+  font-size: 4em;
+  line-height: 1.2;
+  text-align: left;
+  color: white
+}
+.fr_me {
+  float: none;
+  display: block;
+  width: 90%;
+  vertical-align: top;
+  margin-top: -27.31rem;
+  margin-right: auto;
+  margin-left: 5.03%;
+  padding-top: 16em;
+  padding-bottom: 1em;
+  background-repeat: repeat;
+  z-index: 2;
+  min-height: 50.88rem;
+  max-width: 1200px
+}
+.fr_pumina {
+  float: none;
+  display: block;
+  width: 56.78%;
+  vertical-align: top;
+  margin-top: -2.12rem;
+  margin-right: auto;
+  margin-left: 0;
+  max-width: 700px
+}
+.fr_fibiwa {
+  float: none;
+  display: block;
+  width: 100%;
+  margin-top: -2.5rem;
+  margin-right: auto;
+  margin-left: -0.79%;
+  background-repeat: repeat;
+  background-image: linear-gradient(280deg, #ff4e50, #f9d423);
+  background-position: center center;
+  background-size: 400% 400%;
+  background-attachment: fixed;
+  min-height: 28.57em;
+  -webkit-animation: animationname 17s ease infinite;
+  -moz-animation: animationname 17s ease infinite;
+  animation: animationname 17s ease infinite
+}
+.fr_big_name {
+  float: none;
+  display: inline-block;
+  width: 80.61%;
+  vertical-align: top;
+  margin-top: 15.56rem;
+  margin-bottom: .5em;
+  margin-left: 0;
+  max-width: 700px
+}
+.fr_content_11 {
+  float: none;
+  display: block;
+  margin-top: 2.5rem;
+  margin-left: 0;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: white
+}
+.fr_body_text {
+  float: none;
+  display: block;
+  width: 60.49%;
+  margin-top: -6rem;
+  margin-right: auto;
+  margin-left: 4.23%;
+  max-width: 1200px
+}
+@media screen and (max-width: 1024px) {
+  .fr_pumina {
+    float: none;
+    display: block;
+    width: 100%;
+    margin-top: -2.12rem;
+    margin-right: 0;
+    margin-left: .4%
+  }
+  .fr_fibiwa {
+    background-repeat: repeat;
+    background-attachment: scroll
+  }
+  .fr_big_name {
+    display: block
+  }
+}
+@media screen and (max-width: 768px) {
+  .fr_subtitle {
+    font-size: 3.7em
+  }
+  .fr_pumina {
+    float: none;
+    display: block;
+    width: 94.65%
+  }
+  .fr_big_name {
+    display: block
+  }
+  .fr_body_text {
+    width: 90.01%
+  }
+}
+@media screen and (max-width: 480px) {
+  .fr_content {
+    font-size: 1.3em
+  }
+  .fr_bigname {
+    font-size: 4.3em;
+    line-height: .9
+  }
+  .fr_maintext {
+    font-size: 1.3em
+  }
+  .fr_subtitle {
+    font-size: 2.5em
+  }
+  .fr_me {
+    width: 90%;
+    padding-right: 3em;
+    padding-left: 3em;
+    min-height: 48.38rem
+  }
+  .fr_pumina {
+    display: block;
+    width: 123.32%;
+    vertical-align: top;
+    margin-top: -10.5rem;
+    margin-left: -2.31rem
+  }
+  .fr_fibiwa {
+    min-height: 21.38em
+  }
+  .fr_big_name {
+    float: none;
+    display: block;
+    width: 127.62%;
+    vertical-align: top;
+    margin-top: 15.56rem;
+    margin-left: -11.25%;
+    min-height: 13.69rem
+  }
+  .fr_body_text {
+    margin-top: -5rem
+  }
+}
+@media screen and (max-width: 320px) {
+  .fr_bigname {
+    font-size: 2.9em
+  }
+  .fr_maintext {
+    font-size: 1.1em
+  }
+  .fr_subtitle {
+    font-size: 1.6em
+  }
+  .fr_me {
+    width: 90%;
+    min-height: 41.56rem
+  }
+  .fr_pumina {
+    display: block;
+    width: 143.75%;
+    vertical-align: top;
+    margin-top: -1rem;
+    margin-right: 0;
+    margin-left: -2.62rem
+  }
+  .fr_fibiwa {
+    min-height: 15.38em
+  }
+  .fr_big_name {
+    display: block;
+    width: 148.18%;
+    vertical-align: top;
+    margin-top: 15.38rem;
+    margin-left: -2.62rem;
+    min-height: 2.94rem
+  }
+  .fr_body_text {
+    margin-top: -6rem
+  }
+}
